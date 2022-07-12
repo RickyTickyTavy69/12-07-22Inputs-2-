@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*****Section*****/
+
+.contactForm {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+h1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  background-color: #5cd8a5;
+}
+
+form {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+}
+
+.formElement {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+button {
+  background-color: #5cd8a5;
+  border: none;
+  padding-top: 1%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+}
+
+textarea {
+  resize: none;
+}
+
+.formElement:focus {
+  outline: none;
+}
